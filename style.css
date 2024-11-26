@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: roboto;
+}
+
+/* HEADER AND FOOTER CSS */
+
+.header, .footer{
+    background-color: #1f2937;
+    color: #e5e7eb;     
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 48px 256px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 96px;
+}
+.header-content{
+    display: flex;
+    padding-bottom: 88px;
+    justify-content: space-between;
+}
+.header-content-1{
+    padding-right: 8px;
+}
+.main-text{
+    font-size: 48px;
+    font-weight: 900;
+}
+.btn-1{
+    background-color: #3882f6;
+    margin-top: 16px;
+    padding: 8px 36px;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    border-style:hidden;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+}
+.header-links{
+    display: flex;
+    gap:16px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    text-align: center;
+    padding: 32px;
+    font-size: 18px;   
+}
+
+/* MAIN CONTENT CSS */
+
+.content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 64px;
+}
+.header-2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.mini-content{
+    display:flex;
+    gap: 48px;
+    padding-top: 64px;
+    padding-bottom: 112px;
+}
+.info{
+    font-size: 18px;
+    width: 200px;
+    padding-top: 8px;
+}
+.imagebox{
+    border: 5px solid;
+    border-radius: 24px;
+    border-color: #3882f6;
+}
+.quote{
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    padding: 152px 512px;
+}
+.callbox{
+    display: flex;
+    padding: 48px 152px;
+    margin: 88px;
+    background-color: #3882f6;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+.btn-2{
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    padding: 8px 36px;
+    border-radius: 8px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 128px;
+}
+.call-text{
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+.call-info{
+    font-size: 18px;
+    color: #e5e7eb;
+}
